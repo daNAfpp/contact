@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#"><img src="./img/logo.jpg" alt="Logo" /></a>
+        </div>
+      
+      </div>
+    </header>
+
+    <!-- Contact Form -->
+    
+    <div class="contact-container">
+      <div class="contact-image">
+        <label for="photo-upload" class="image-upload" id="img">
+          <i class="bi bi-person bi-3x"></i>
+          <input
+            type="file"
+            id="photo-upload"
+            accept="image/*"
+            style="display: none"
+          />
+        </label>
+      </div>
+      <div class="contact-details">
+        
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="text" id="phoneNumber" placeholder="Phone Number" />
+      </div>
+      <div class="contact-btn">
+        <button class="btn-item" onclick="addContact()">Сохранить</button>
+        <button class="btn-item" onclick="clearForm()">Очистить</button>
+      </div>
+    </div>
+    <div class="contact-container" id="contact-container1">
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Search" class="bi bi-search" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+       
+        <button class="delete-btn">Удалить</button>
+        <button class="edit-btn">Редактировать</button>
+    </div>
+
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

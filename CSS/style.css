@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.search form {
+  display: flex;
+}
+
+.search input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.search button:hover {
+  background-color: #0056b3;
+}
+/* contact */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container {
+  display: -ms-inline-flexbox;
+  max-width: 450px;
+  height: 600px;
+  margin: 20px auto;
+  background-color: #c6b2d6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #edf1f5;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-size: 7em;
+}
+
+.contact-image img {
+  max-width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.contact-details input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 42px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.image-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image-upload input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 0;
+}
+
+.image-upload img {
+  cursor: pointer;
+}
+
+/* buttons */
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-item {
+  width: 300px;
+  background-color: #360064;
+  color: #fff;
+  border: #0056b3;
+  padding: 10px 20px;
+  border-radius: 23px;
+  margin: 0 10px;
+}
+*/ .btn-item:hover {
+  background-color: #0056b3;
+}
